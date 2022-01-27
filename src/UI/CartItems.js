@@ -17,7 +17,7 @@ const Cartitems = () => {
 		return (
 			<>
 				{showCart && (
-					<div className=" cart-items bg-white h-60 w-96 absolute z-20 shadow-lg top-20 right-0">
+					<div className=" cart-items bg-white h-60 md:w-96 absolute z-20 shadow-lg top-20 right-0">
 						<h3 className="font-bold p-4 ">Cart</h3>
 						<div className="grid place-items-center mt-14 opacity-60">
 							Your cart is empty
